@@ -3,18 +3,18 @@ html {
   font-size: 16px;
   /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
   font-family: "Open Sans", sans-serif;
-  background-color: #003798;
+  background-color: #00c6ff;
 }
 
 body {
-  background-color: #0084ff;
+  background-color: #320097;
   width: 80%;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
 }
 
 h1 {
-  color: #3f3f3f;
+  color: #ffffff;
   text-align: center;
   font-size: 40px;
 }
@@ -50,4 +50,32 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+}
+
+/*
+Source - https://stackoverflow.com/questions/19040556/css-html-boxes-side-by-side
+Posted by incutonez
+Retrieved 05/11/2025, License - CC-BY-SA 4.0
+*/
+
+.b {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    align-content: center;
+    width: 45%;
+    height: 250px;
+    background-color: #2c0078;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
