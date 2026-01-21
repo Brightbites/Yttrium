@@ -8,41 +8,41 @@ html {
 
 body {
   background-color: #320097;
+  color: #ffffff;
   width: 80%;
   margin: 0 auto;
-  padding: 0 20px 20px 20px;
+  padding: 0;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 h1 {
-  color: #ffffff;
   text-align: center;
-  font-size: 40px;
+  font-size: 3.5rem;
 }
 
 h2 {
-  color: #ffffff;
   text-align: center;
-  font-size: 12px;
-}
-
-p {
-  color: #ffffff;
+  font-size: 0.75rem;
 }
 
 li {
   color: #3f3f3f;
   text-align: center;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 1.25rem 0 1.25rem;
   background-color: #003798;
   display: flex;
   position: sticky;
   top: 0;
+  width: stretch;
 }
 
 ul li a {
@@ -54,6 +54,30 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+}
+
+ /* unvisited link */
+p a:link {
+  color: hotpink;
+}
+
+/* visited link */
+p a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+p a:hover {
+  color: pink;
+}
+
+/* selected link */
+p a:active {
+  color: blue;
+}
+
+footer {
+  background-color: #3f3f3f;
 }
 
 /*
