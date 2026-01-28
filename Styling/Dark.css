@@ -90,8 +90,7 @@ td {
 
 table {
   overflow: auto;
-  width: 100%;
-  max-width: 50rem;
+  max-width: 48rem;
   display: block;
   margin: 0 auto;
   border-spacing: 0;
