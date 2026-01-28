@@ -82,6 +82,39 @@ footer {
   background-color: #3f3f3f;
 }
 
+table,
+th,
+td {
+  border: 1px solid white;
+}
+
+table {
+  overflow: auto;
+  width: 100%;
+  max-width: 50rem;
+  display: block;
+  margin: 0 auto;
+  border-spacing: 0;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: rgb(0, 0, 0);
+  vertical-align: bottom;
+}
+
 /*
 Source - https://stackoverflow.com/questions/19040556/css-html-boxes-side-by-side
 Posted by incutonez
